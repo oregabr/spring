@@ -1,1 +1,1 @@
-image: "gcr.io/heptio-images/ks-guestbook-demo:0.1"
+number_of_replicas: 1
