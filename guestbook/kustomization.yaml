@@ -1,7 +1,7 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
-patchesStrategicMerge:
-- guestbook-ui-deployment.yaml
-- guestbook-ui-svc.yaml
+resources:
+  - ./guestbook-ui-deployment.yaml
+  - ./guestbook-ui-svc.yaml
 configurations:
   - ./values.yaml
