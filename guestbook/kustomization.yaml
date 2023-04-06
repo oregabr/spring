@@ -5,5 +5,5 @@ resources:
   - ./guestbook-ui-svc.yaml
 configMapGenerator:
 - name: guestbook-config
-  files:
-  - ./values.yaml
+  literals:
+  - NUMBER_OF_REPLICAS=1    
